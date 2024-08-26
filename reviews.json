@@ -1,0 +1,125 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Jane Doe",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Amazing professor! Makes complex topics easy to understand."
+      },
+      {
+        "professor": "Dr. John Smith",
+        "subject": "Mathematics",
+        "stars": 4,
+        "review": "Very knowledgeable but sometimes hard to follow."
+      },
+      {
+        "professor": "Dr. Alice Johnson",
+        "subject": "Chemistry",
+        "stars": 3,
+        "review": "Good content, but lectures are a bit dry."
+      },
+      {
+        "professor": "Dr. Robert Brown",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Engaging and practical. One of the best CS professors!"
+      },
+      {
+        "professor": "Dr. Emily Davis",
+        "subject": "Biology",
+        "stars": 2,
+        "review": "Too much reading and not enough explanation."
+      },
+      {
+        "professor": "Dr. Michael Wilson",
+        "subject": "History",
+        "stars": 4,
+        "review": "Interesting lectures, but exams are tough."
+      },
+      {
+        "professor": "Dr. Sarah Miller",
+        "subject": "Economics",
+        "stars": 3,
+        "review": "Average professor, decent lectures."
+      },
+      {
+        "professor": "Dr. Daniel Anderson",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Deep thinker, really makes you question everything."
+      },
+      {
+        "professor": "Dr. Laura Thomas",
+        "subject": "English Literature",
+        "stars": 4,
+        "review": "Great discussions, but heavy reading load."
+      },
+      {
+        "professor": "Dr. Richard Martinez",
+        "subject": "Political Science",
+        "stars": 3,
+        "review": "Fairly good, but not particularly inspiring."
+      },
+      {
+        "professor": "Dr. Barbara Taylor",
+        "subject": "Sociology",
+        "stars": 4,
+        "review": "Engaging classes, but grading is strict."
+      },
+      {
+        "professor": "Dr. Christopher Garcia",
+        "subject": "Psychology",
+        "stars": 5,
+        "review": "Passionate and insightful. Highly recommended!"
+      },
+      {
+        "professor": "Dr. Patricia Hernandez",
+        "subject": "Art History",
+        "stars": 3,
+        "review": "Lectures are okay, but could be more interactive."
+      },
+      {
+        "professor": "Dr. James Lee",
+        "subject": "Engineering",
+        "stars": 4,
+        "review": "Very knowledgeable, but assignments are challenging."
+      },
+      {
+        "professor": "Dr. Maria Rodriguez",
+        "subject": "Statistics",
+        "stars": 2,
+        "review": "Difficult to understand, unclear explanations."
+      },
+      {
+        "professor": "Dr. David Harris",
+        "subject": "Anthropology",
+        "stars": 5,
+        "review": "Fascinating insights into human cultures."
+      },
+      {
+        "professor": "Dr. Susan Clark",
+        "subject": "Environmental Science",
+        "stars": 4,
+        "review": "Inspiring and motivating, but labs are tough."
+      },
+      {
+        "professor": "Dr. Charles Lewis",
+        "subject": "Business Administration",
+        "stars": 3,
+        "review": "Decent professor, but classes can be a bit dull."
+      },
+      {
+        "professor": "Dr. Karen Young",
+        "subject": "Music",
+        "stars": 5,
+        "review": "Brings passion and energy to every class!"
+      },
+      {
+        "professor": "Dr. Steven Walker",
+        "subject": "Linguistics",
+        "stars": 4,
+        "review": "Interesting subject matter, but a bit dry at times."
+      }
+    ]
+}
+  
