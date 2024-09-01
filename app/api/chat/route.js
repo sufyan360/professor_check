@@ -29,7 +29,7 @@ Relevant Review Excerpts (optional, if adding value to the response)
 Response Structure:
 
 Begin with a brief summary of how you selected the professors.
-List the three professors in order of relevance.
+List the three professors in order of relevance but format it clearly to make it easy for the user to see each professor as well as each professor's summary.
 Conclude with a prompt encouraging the student to ask further questions or refine their search if needed.
 Tone and Style:
 
