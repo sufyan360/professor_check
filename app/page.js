@@ -1,5 +1,6 @@
 "use client"
 import { Box, Stack, TextField, Button, Container, Typography} from "@mui/material";
+import Link from 'next/link'; 
 import Navbar from './navbar'
 
 export default function Home() {
@@ -14,9 +15,11 @@ export default function Home() {
                         Find Your Ideal Professor Instantly
                     </Typography>
                     <Typography sx={{color: 'white', fontWeight: '500', fontSize:'1.5vw'}}>
-                        Let our AI Chatbot match you with the best profesors based on you preferences and needs
+                        Let our AI Chatbot match you with the best profesors based on your preferences and needs
                     </Typography>
-                    <Button sx={{borderRadius: 25, backgroundColor: 'white', mt:5, color: '#ca7558', fontWeight: 600, p: 1, '&:hover':{color: 'white', backgroundColor: '#ca7558'}}}>Chat With Our Bot</Button>
+                    <Link href="/chatbot" passHref>
+                        <Button sx={{borderRadius: 25, backgroundColor: 'white', mt:5, color: '#ca7558', fontWeight: 600, p: 1, '&:hover':{color: 'white', backgroundColor: '#ca7558'}}}>Chat With Our Bot</Button>
+                    </Link>
                 </Box>
             </Box>
             <Box sx ={{ height: '100vh', width: '100vw', display:'flex', justifyContent:"space-evenly", alignItems: 'center', textAlign: 'center', flexDirection: 'column', bgcolor: 'white'}} id="howItWorks">
@@ -138,13 +141,15 @@ export default function Home() {
                 <Typography sx={{color: 'white', fontWeight: 'bold', fontSize: '2vw'}}>
                 Always ready to assist you with finding the perfect professor.
                 </Typography>
-                <Button sx={{bgcolor: '#2a416a', color: 'white', fontSize: '1vw', fontWeight: 700, borderRadius: 15, mt:3, p: 1.5, '&:hover': {bgcolor: '#ca7558'}}}>
-                    Get Started Today
-                </Button>
+                
+                <Link href="/chatbot" passHref>
+                    <Button sx={{bgcolor: '#2a416a', color: 'white', fontSize: '1vw', fontWeight: 700, borderRadius: 15, mt:3, p: 1.5, '&:hover': {bgcolor: '#ca7558'}}}>
+                        Get Started Today
+                    </Button>
+                </Link>
             </Box>
             <Box sx={{height:'10vh', bgcolor:'#9ec2b6', width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
                 <Typography sx={{color: 'white'}}>&copy; 2024 Check My Professor</Typography>
-                <Button sx={{color:'#2a416a', fontWeight: 'bold', '&:hover': {color: '#ca7558', bgcolor: 'transparent'}}}>Get Started</Button>
             </Box>
         </Box>
     </Box>
